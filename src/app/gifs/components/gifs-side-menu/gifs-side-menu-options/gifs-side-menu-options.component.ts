@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 import { MenuOptions } from '../../../interfaces/menu-options.interface';
+import { RouterLink, RouterLinkActive } from '@angular/router';
 
 @Component({
   selector: 'gifs-side-menu-options',
-  imports: [],
+  imports: [RouterLink, RouterLinkActive],
   templateUrl: './gifs-side-menu-options.component.html',
 })
 export class GifsSideMenuOptionsComponent {
