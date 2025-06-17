@@ -23,8 +23,5 @@ const imageUrls: string[] = [
   templateUrl: './trending-page.component.html',
 })
 export default class TrendingPageComponent { 
-
-  imgs = signal(imageUrls);
-
   gifService = inject(GifsService);
 }
